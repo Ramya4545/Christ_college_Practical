@@ -3,7 +3,8 @@ import pandas as pd
 import joblib
 
 # Load trained model
-model = joblib.load("accident_model.pkl")
+model = joblib.load("Christ_college_accident_prediction_model.pkl
+")
 
 # Page configuration
 st.set_page_config(
